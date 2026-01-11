@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qur’an Companion</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- WELCOME -->
+    <section id="welcome" class="screen active">
+        <div class="center">
+            <h1>Qur’an Companion</h1>
+            <p>Your daily connection with the Qur’an</p>
+            <button class="primary" data-screen="home">Enter</button>
+        </div>
+    </section>
+
+    <!-- HOME -->
+    <section id="home" class="screen">
+        <header>Qur’an Companion</header>
+
+        <div class="card">
+            <h3>Daily Verse</h3>
+            <p class="ayah">“Indeed, in the remembrance of Allah do hearts find rest.”</p>
+            <span>Qur’an 13:28</span>
+        </div>
+
+        <div class="card">
+            <h3>Progress</h3>
+            <p>7 / 30 days completed</p>
+        </div>
+    </section>
+
+    <!-- READ -->
+    <section id="read" class="screen">
+        <header>Read</header>
+
+        <div class="card">
+            <h3>Surah Al-Fātiḥah</h3>
+            <p class="arabic">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+            <p class="translation">In the name of Allah, the Most Merciful...</p>
+        </div>
+    </section>
+
+    <!-- GROUPS -->
+    <section id="groups" class="screen">
+        <header>Groups</header>
+
+        <div class="card">
+            <h3>Tajweed Circle</h3>
+            <p>12 members • Weekly</p>
+        </div>
+
+        <div class="card">
+            <h3>Tafsir Study</h3>
+            <p>8 members • Friday</p>
+        </div>
+    </section>
+
+    <!-- PROFILE -->
+    <section id="profile" class="screen">
+        <header>Profile</header>
+
+        <div class="card">
+            <p><strong>Name:</strong> User</p>
+            <p><strong>Streak:</strong> 7 days</p>
+            <button class="secondary">Edit Profile</button>
+        </div>
+    </section>
+
+    <!-- BOTTOM NAV -->
+    <nav class="bottom-nav">
+        <button data-screen="home">Home</button>
+        <button data-screen="read">Read</button>
+        <button data-screen="groups">Groups</button>
+        <button data-screen="profile">Profile</button>
+    </nav>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
